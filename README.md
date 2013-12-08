@@ -1,4 +1,4 @@
-yuzhen_nlp_edu_tools
+YuZhen NLP Education Tools
 ====================
 
-NLP Education Tools by YuZhen(www.yuzhenkeji.com)
+NLP Education Tools by YuZhen Technology Ltd. (www.yuzhenkeji.com)
