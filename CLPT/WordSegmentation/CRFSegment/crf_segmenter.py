@@ -3,7 +3,7 @@
 # Author: 52nlpcn@gmail.com
 # Copyright 2014 @ YuZhen Technology
 #
-# CRF tagger:
+# CRF Segmenter based character tagging:
 #     4 tags for character tagging: B(Begin), E(End), M(Middle), S(Single)
 
 import codecs
