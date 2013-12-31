@@ -31,7 +31,7 @@ def character_2_word(input_file, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print "pls use: python character_2_word.py input output"
+        print "pls use: python crf_data_2_word.py input output"
         sys.exit()
     input_file = sys.argv[1]
     output_file = sys.argv[2]
