@@ -1,0 +1,19 @@
+UNIGRAM W0:%F[6]
+UNIGRAM W1:%F[0]/%F[6]
+UNIGRAM W2:%F[0],%F?[1]/%F[6]
+UNIGRAM W3:%F[0],%F[1],%F?[2]/%F[6]
+UNIGRAM W4:%F[0],%F[1],%F[2],%F?[3]/%F[6]
+
+UNIGRAM T0:%t
+UNIGRAM T1:%F[0]/%t
+UNIGRAM T2:%F[0],%F?[1]/%t
+UNIGRAM T3:%F[0],%F[1],%F?[2]/%t
+UNIGRAM T4:%F[0],%F[1],%F[2],%F?[3]/%t
+
+BIGRAM B00:%L[0]/%R[0]
+BIGRAM B01:%L[0],%L?[1]/%R[0]
+BIGRAM B02:%L[0]/%R[0],%R?[1]
+BIGRAM B03:%L[0]/%R[0],%R[1],%R?[2]
+BIGRAM B04:%L[0],%L?[1]/%R[0],%R[1],%R?[2]
+BIGRAM B05:%L[0]/%R[0],%R[1],%R[2],%R?[3]
+BIGRAM B06:%L[0],%L?[1]/%R[0],%R[1],%R[2],%R?[3]

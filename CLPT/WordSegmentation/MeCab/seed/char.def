@@ -1,0 +1,13 @@
+DEFAULT        0 1 0  # DEFAULT is a mandatory category!
+SPACE          0 1 0
+CJK            0 0 2
+
+# SPACE
+0x0020 SPACE  # DO NOT REMOVE THIS LINE,  0x0020 is reserved for SPACE
+0x00D0 SPACE
+0x0009 SPACE
+0x000B SPACE
+0x000A SPACE
+
+#CJK
+0x4E00..0x9FCB  CJK
